@@ -341,11 +341,122 @@ let arr=[1,2,3,4,]
 console.log(reversedarry);
 
 // assignment -5 (25/march/2025)
+
+
+
+
+// print the matrix .
 let arr=[
     [1,2,3],
     [4,5,6],
-     [7,8,9]
+    [7,8,9]
 
-] // find tha max sum of row in given matrix.
-// print the matrix as same question.
+]
+
+let row=0;
+         
+      for(let i =0; i<arr.length;i++)
+      
+     for(let j=0; j<arr[0].length; j++)
+         row+=arr[1][j]+
+         console.log(arr[i][j]);
+
 // return the index of target value in the given array
+
+
+         let matrix=[
+            [1,2,3],
+            [4,5,6],
+            [7,8,9]
+          ]
+           let target=8;
+          let result = [];
+           for (let i = 0; i< matrix.length; i++) {
+               for (let j = 0; j< matrix[i].length; j++) {
+                   if (matrix[i][j] === target) {
+                       result.push(i,j);
+                   }
+               }
+           }
+           console.log(result);
+       // find tha max sum of row in given matrix.
+
+           let arr = [
+            [1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]
+        ];
+        
+        let maxSum = 0; 
+        let result = []; 
+        
+        for (let i = 0; i < arr.length; i++) {
+            let rowSum = 0; 
+            for (let j = 0; j < arr[i].length; j++) {
+                rowSum += arr[i][j]; 
+            }
+            result.push(rowSum); 
+            if (rowSum > maxSum) { 
+                maxSum = rowSum;
+            }
+        }
+        console.log( maxSum);
+        
+           // assignment-6 (26/march/2025)
+
+         
+          // question 1
+                   
+                   let matrix=[ 
+                    [1 , 2 , 3 , 4 ],
+                    [ 5 , 6 , 7 , 8],
+                    [ 9 , 2 , 3,  4]
+               ]
+               let target=2;
+                         let result = [];
+                        for (let i = 0; i< matrix.length; i++) {
+                             for (let j = 0; j< matrix[i].length; j++) {
+                                  if (matrix[i][j] === target) {
+                                       result.push(i,j);
+                                  }
+                               }
+                           }
+                           console.log(result);
+                      
+
+     // question 2 
+              
+     let arr = [
+        [3, 8, 1],
+        [5, 2, 9],
+        [4 ,7, 6]
+   ];
+  
+     let maxSum = 0; 
+     let result = []; 
+    
+     for (let i = 0; i < arr.length; i++) {
+         let rowSum = 0; 
+         for (let j = 0; j < arr[i].length; j++) {
+             rowSum += arr[i][j]; 
+         }
+        result.push(rowSum); 
+       if (rowSum > maxSum) { 
+           maxSum = rowSum;
+        }
+    }
+    console.log( maxSum);
+   
+    // question -3
+let arr=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+    let row=0;
+         
+      for(let i =0; i<arr.length;i++)
+      
+     for(let j=0; j<arr[0].length; j++)
+         row+=arr[1][j]+
+         console.log(arr[i][j]);
