@@ -226,12 +226,12 @@
 // assignment -11
 
 //ques-1
-let arr = [10, 20, 30, 40];
+// let arr = [10, 20, 30, 40];
 
-let first = arr[0];
-let last = arr[arr.length - 1];
+// let first = arr[0];
+// let last = arr[arr.length - 1];
 
-console.log([first, last]); 
+// console.log([first, last]); 
 
 
 // que-2
