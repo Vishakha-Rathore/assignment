@@ -111,6 +111,7 @@
 // }
 //     console.log(kthSmallest , kthLargest);
     
+// que -2 not attampt
 
     
     // que-3
@@ -243,4 +244,4 @@ let combined = n1.concat(n2);
 console.log(combined);
 
 
-// que-3
+// que-3 not attampt
